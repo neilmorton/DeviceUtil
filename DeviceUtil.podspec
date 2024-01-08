@@ -10,7 +10,7 @@ s.source           = { :git => "https://github.com/InderKumarRathore/DeviceUtil.
 s.source_files     = "Source/*.{h,m}"
 s.resource_bundles = {s.name => ['Source/DeviceList.plist']}
 s.requires_arc     = false
-s.ios.deployment_target = '12.0'
-s.tvos.deployment_target = '12.0'
-s.watchos.deployment_target = '4.0'
+s.ios.deployment_target = '7.0'
+s.tvos.deployment_target = '9.0'
+s.watchos.deployment_target = '3.0'
 end
