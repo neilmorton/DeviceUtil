@@ -104,8 +104,8 @@ typedef NS_ENUM(NSUInteger, Hardware) {
     IPAD_PRO_105_WIFI_CELLULAR,
     IPAD_6_WIFI,
     IPAD_6_WIFI_CELLULAR,
-    IPAD_PRO_11_2G_WIFI_CELLULAR,
     IPAD_PRO_11_WIFI,
+    IPAD_PRO_11_2G_WIFI_CELLULAR,
     IPAD_PRO_4G_WIFI,
     IPAD_PRO_11_1TB_WIFI,
     IPAD_PRO_11_WIFI_CELLULAR,
@@ -120,10 +120,12 @@ typedef NS_ENUM(NSUInteger, Hardware) {
     IPAD_MINI_5_WIFI_CELLULAR,
     IPAD_AIR_3_WIFI,
     IPAD_AIR_3_WIFI_CELLULAR,
+    IPAD_8_WIFI,
+    IPAD_8_WIFI_CELLULAR,
     IPAD_9_WIFI,
     IPAD_9_WIFI_CELLULAR,
-    IPAD_PRO_5_WIFI_CELLULAR,
     IPAD_AIR_4_WIFI,
+    IPAD_PRO_5_WIFI_CELLULAR,
     IPAD_AIR_5_WIFI,
     IPAD_AIR_5_WIFI_CELLULAR,
     IPAD_AIR_4_WIFI_CELLULAR,
@@ -194,6 +196,8 @@ extern NSString* const iPad11_1;
 extern NSString* const iPad11_2;
 extern NSString* const iPad11_3;
 extern NSString* const iPad11_4;
+extern NSString* const iPad11_6;
+extern NSString* const iPad11_7;
 extern NSString* const iPad12_1;
 extern NSString* const iPad12_2;
 extern NSString* const iPad13_1;
